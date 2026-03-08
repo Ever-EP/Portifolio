@@ -1,0 +1,265 @@
+<!-- 
+    ============================================
+    PORTFÓLIO - EVERSON PIRES
+    Desenvolvedor Full Stack
+    ============================================
+-->
+
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <!-- Meta tags para configuração da página -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <!-- Biblioteca de ícones Boxicons -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== DEVICON (ícones de tecnologias) ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+
+        <!--========== CSS ==========-->
+        <!-- Arquivo de estilos principal -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- Título da página -->
+        <title>Everson Pires - Desenvolvedor Full Stack</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <!-- Botão para voltar ao topo da página -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <!-- Cabeçalho com menu de navegação -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <!-- Logo do portfólio -->
+                <a href="#" class="nav__logo">EVERSON PIRES</a>
+
+                <!-- Menu de navegação -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <!-- Links do menu -->
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">INÍCIO</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">SOBRE MIM</a></li>
+                        <li class="nav__item"><a href="#stack" class="nav__link">STACK</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">PROJETOS</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">CONTATO</a></li>
+                        
+                        <!-- Botão de alternância de tema (roxo/ciano) -->
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <!-- Botão toggle para menu mobile -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--========== CONTEÚDO PRINCIPAL ==========-->
+        <main class="l-main">
+            <!--========== HERO / SEÇÃO INICIAL ==========-->
+            <!-- Seção principal com apresentação -->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <!-- Imagem do desenvolvedor -->
+                    <div class="home__img">
+                        <img src="assets/img/Ever.png"  id="home_img">
+                    </div>
+
+                    <!-- Informações principais -->
+                    <div class="home__data">
+                        <h1 class="home__title">Desenvolvedor Full Stack</h1>
+                        
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== SOBRE MIM ==========-->
+            <!-- Seção com informações sobre o desenvolvedor -->
+            <section class="about section bd-container" id="about">
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <h2 class="section-title">Sobre Mim</h2>
+                        <p class="about__description">
+                            Desenvolvedor Full Stack com experiência na criação de sistemas web, APIs e aplicações modernas utilizando JavaScript e TypeScript.  Trabalho com tecnologias como Node.js, NestJS, React, PHP e Laravel, desenvolvendo soluções completas do back-end ao front-end, focadas em desempenho, organização e escalabilidade. 
+                        </p>
+                       
+                    </div>
+                </div>
+            </section>
+
+            <!--========== STACK TÉCNICA ==========-->
+            <!-- Seção com tecnologias e ferramentas utilizadas -->
+            <section class="stack section bd-container" id="stack">
+                <h2 class="section-title">Stack Técnica</h2>
+                <div class="stack__container bd-grid">
+                    <!-- Front-end -->
+                    <div class="stack__category">
+                        <h3 class="stack__title">Front-end</h3>
+                        <ul class="stack__list">
+                            <li><i class="devicon-html5-plain stack__icon"></i><i class="devicon-css3-plain stack__icon"></i> HTML5 e CSS</li>
+                            <li><i class="devicon-javascript-plain stack__icon"></i> JavaScript</li>
+                            <li><i class="devicon-react-original stack__icon"></i> React</li>
+                            <li><i class="devicon-typescript-plain stack__icon"></i> TypeScript</li>
+                        </ul>
+                    </div>
+
+                    <!-- Back-end -->
+                    <div class="stack__category">
+                        <h3 class="stack__title">Back-end</h3>
+                        <ul class="stack__list">
+                            <li><i class="devicon-nodejs-plain stack__icon"></i> Node.js</li>
+                            <li><i class="devicon-nestjs-plain stack__icon"></i> NestJS</li>
+                            <li><i class="devicon-php-plain stack__icon"></i><i class="devicon-laravel-plain stack__icon"></i> PHP/Laravel</li>
+                        </ul>
+                    </div>
+
+                    <!-- Banco de dados -->
+                    <div class="stack__category">
+                        <h3 class="stack__title">Banco de dados</h3>
+                        <ul class="stack__list">
+                            <li><i class='bx bx-data stack__icon'></i> SQL</li>
+                            <li><i class="devicon-mysql-plain stack__icon"></i> MySQL</li>
+                        </ul>
+                    </div>
+
+                    <!-- Ferramentas -->
+                    <div class="stack__category">
+                        <h3 class="stack__title">Ferramentas</h3>
+                        <ul class="stack__list">
+                            <li><i class="devicon-github-original stack__icon"></i> Git / GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== PROJETOS FULL STACK ==========-->
+            <!-- Seção com projetos desenvolvidos -->
+            <section class="decoration section bd-container" id="projects">
+                <h2 class="section-title">Projetos Full Stack</h2>
+                
+                <!-- Projetos principais (visíveis inicialmente) -->
+                <div class="decoration__container bd-grid">
+                    <!-- Projeto 1: Site Cafeteira -->
+                    <div class="decoration__data">
+                        <img src="assets/img/Cafe-site.png" alt="Site Cafeteira" class="decoration__img">
+                        <h3 class="decoration__title">Site Cafeteira</h3>
+                        <p class="decoration__description">Landing page responsiva para cafeteira com design moderno e funcionalidades interativas.</p>
+                        <p class="decoration__tech">HTML5 • CSS3 • JavaScript</p>
+                        <a href="https://ever-ep.github.io/Cafeteira.github.io/" class="button button-link" target="_blank">Ver Projeto</a>
+                    </div>
+
+                    <!-- Projeto 2: Projeto Mimi -->
+                    <div class="decoration__data">
+                        <img src="assets/img/Mimi.png" alt="Projeto Mimi" class="decoration__img">
+                        <h3 class="decoration__title">Projeto Mimi</h3>
+                        <p class="decoration__description">Aplicação web com interface moderna e responsiva desenvolvida com tecnologias front-end.</p>
+                        <p class="decoration__tech">React • CSS3 • JavaScript</p>
+                        <a href="https://ever-ep.github.io/MimiFront.io/" class="button button-link" target="_blank">Ver Projeto</a>
+                    </div>
+
+                    <!-- Projeto 3: Sistema de Irrigação -->
+                    <div class="decoration__data">
+                        <img src="assets/img/Irrigação.png" alt="Sistema de Irrigação" class="decoration__img">
+                        <h3 class="decoration__title">Sistema de Irrigação</h3>
+                        <p class="decoration__description">Sistema completo para controle de irrigação com interface intuitiva e funcionalidades avançadas.</p>
+                        <p class="decoration__tech">HTML5 • CSS3 • JavaScript</p>
+                        <a href="https://ever-ep.github.io/Sistema-de-Irriga-o-/" class="button button-link" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Projetos ocultos (aparecem ao clicar em "Ver Mais") -->
+                <div class="decoration__container bd-grid hidden-projects" style="display: none;">
+                    <!-- Projeto 4 -->
+                    <div class="decoration__data">
+                        <img src="assets/img/projeto4.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Projeto 4</h3>
+                        <a href="#" class="button button-link" target="_blank">Acessar Site</a>
+                    </div>
+
+                    <!-- Projeto 5 -->
+                    <div class="decoration__data">
+                        <img src="assets/img/projeto5.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Projeto 5</h3>
+                        <a href="#" class="button button-link" target="_blank">Acessar Site</a>
+                    </div>
+
+                    <!-- Projeto 6 -->
+                    <div class="decoration__data">
+                        <img src="assets/img/projeto6.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Projeto 6</h3>
+                        <a href="#" class="button button-link" target="_blank">Acessar Site</a>
+                    </div>
+                </div>
+
+                <!-- Botão para mostrar/ocultar mais projetos -->
+                <div class="decoration__more" style="text-align: center; margin-top: 2rem;">
+                    <button class="button" id="ver-mais">VER MAIS</button>
+                </div>
+            </section>
+
+        </main>
+
+        <!--========== CONTATO ==========-->
+        <!-- Seção de contato antes do footer -->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__content">
+                    <h2 class="section-title">Contato</h2>
+                    
+                    
+                    <!-- Links das redes sociais -->
+                    <div class="contact__socials">
+                        <!-- GitHub -->
+                        <a href="https://github.com/Ever-EP" target="_blank" class="contact__social" title="GitHub">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/everson-pires" target="_blank" class="contact__social" title="LinkedIn">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/+5542999958178" target="_blank" class="contact__social" title="WhatsApp">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/ever_ep_?igsh=OXhvaHMwdDIzZjJ4" target="_blank" class="contact__social" title="Instagram">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========== FOOTER / RODAPÉ ==========-->
+        <!-- Rodapé com informações de contato -->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                
+                <!-- Seção de contato -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Everson Pires</h3>
+                    <p class="footer__description">Desenvolvedor Full Stack</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <p class="footer__copy">&#169; 2023 Everson Pires. Todos os direitos reservados</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <!-- Biblioteca para animações de scroll -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <!-- Arquivo JavaScript principal -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
